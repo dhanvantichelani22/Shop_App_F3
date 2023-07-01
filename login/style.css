@@ -1,0 +1,110 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: auto; */
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+  }
+.nav-right,a{
+    color: white;
+    float: right;
+    background-color: black;
+    font-size: large;
+    text-decoration: none;
+    gap: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      position: sticky;
+      z-index: 100;
+      top: 0;
+    
+      background-color: black;
+      border-bottom: 1px solid white;
+      padding: 1.5rem;
+      font-size: 1rem;
+    }
+    
+    nav .nav-left {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    
+    nav .nav-right a {
+      margin: 0 1rem;
+    }
+    
+    /* h2{
+        margin-top: 28px;
+        margin-left: 50px; 
+    } */
+    
+    /* input{
+        margin-left: 50px;
+        height: 6vh;
+        text-align: left;
+        padding-left: 12px;
+        width: 90%;
+        border: 2px solid black;
+    }
+
+    .btn{
+        margin-left: 50px;
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        width:10vw;
+        height: 5vh;
+        font-size: large;
+    }
+    ------------------- */
+    #login{
+      margin-left: 50px;
+      margin-top: 15px;
+      background-color: black;
+      color: white;
+      width:10vw;
+      height: 5vh;
+      font-size: large;
+      }
+      .login{
+        margin:40px;
+      }
+      #message{
+        color: green;
+        margin-left: 40px;
+        font-size: x-large;
+        /* padding-top:900px; */
+      }
+      #message-error{
+        color: red;
+        margin-left: 40px;
+        font-size: x-large;
+        /* padding-top:900px; */
+      }
+      #login:hover {
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+      input{
+        /* margin:40px; */
+        margin-left: 50px;
+        width: 90%;
+        margin-top: 15px;
+        padding: 15px;
+        font-size: medium;
+      }
